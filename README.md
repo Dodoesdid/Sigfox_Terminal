@@ -18,6 +18,25 @@ This is collaboration done by four students in NTUST. Anshul and Pratik are PhD 
 * PCB: EasyPC
 > Note: These two IDEs are both free with limited access
 
+## File Structure
+```C
++---
+|   +---Drivers             // drivers provided by ARM and ST
+|   |   +---CMSIS
+|   |   +---STM32F1xx_HAL_Driver
+|   \---Inc
+|   \---MDK-ARM
+|   \---Src                 // User code
+\---PCB
+    +---Design_1            // First Design using DIP components   
+    \---Design_2            // Second Design using SMD components
+        |   Project_2.sch   // Schematic file
+        |   Project_2_1.pcb // PCB file
+        \---Outputs
+            +---BOM         // Bill of Material (Component List)
+            +---Gerber      // File for PCB Manufacturer
+            \---Schematic   // PDF schematics for reading purpose
+```
 ## Final Product
 
 ### Device
