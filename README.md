@@ -20,7 +20,7 @@ This is collaboration done by four students in NTUST. Anshul and Pratik are PhD 
 
 ## File Structure
 ```C
-+---
++---C
 |   +---Drivers             // drivers provided by ARM and ST
 |   |   +---CMSIS
 |   |   +---STM32F1xx_HAL_Driver
